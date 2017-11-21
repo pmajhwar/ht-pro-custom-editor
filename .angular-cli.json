@@ -19,13 +19,10 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "../node_modules/roboto-fontface/css/roboto/roboto-fontface.css",
-		    "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+      
         "styles.css"
       ],
       "scripts": [
-        "../node_modules/jquery/dist/jquery.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
