@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "paths": {
+        "handsontable": ["../node_modules/handsontable-pro/dist/handsontable.full.min.js"]
+    },
+    "lib": [
+      "es2017",
+      "dom"
+    ]
+  }
+}

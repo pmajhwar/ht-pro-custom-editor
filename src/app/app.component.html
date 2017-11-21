@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<hot-table
+  [hotId]="instance"
+  [colHeaders]="true"
+  [rowHeaders]="true"
+  [dropdownMenu]="true"
+  [filters]="true"
+  [data]="[['1/12/2010',2,3],['1/10/2012',5,6]]"
+  [settings]="settings"
+  [contextMenu]="['make_read_only']"
+>
+<hot-column *ngFor="let column of columns"></hot-column>
+</hot-table>
+
+<hot-table  [columns]="mycolumns"></hot-table>
+
+<p>Toolbar</p>
+<button (click)="getData()">Log data</button>
+<button (click)="addColumn()">Add Column</button>
+<button (click)="removeColumn()">Remove Column</button>
+<button (click)="setBg()">Set Background</button>
+<button (click)="exportFile()">Export file</button>
